@@ -27,3 +27,14 @@ let , const , var
 
     // not-primitive (referance type)
     // Array , Objects , Functions
+
+
+
+
+memory - stack and heap
+
+stack (Primitive) = copy
+heap(Non-Primitive) = referance of original value
+
+let myYoutubename = "AkashMishra"
+
