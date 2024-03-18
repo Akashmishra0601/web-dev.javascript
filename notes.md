@@ -12,3 +12,18 @@ Node.js , Deno.js:
     Deno: Deno is a secure runtime for JavaScript and TypeScript built with Rust and maintained by some of the creators of Node.js. It aims to provide a more secure and modern alternative to Node.js. Deno comes with built-in support for TypeScript, a standard library, and a set of command-line tools. It emphasizes security, offering features such as permissions-based access to the file system and network, and it aims to simplify the development process by providing a single executable without requiring a package manager like npm.
 
     In summary, both Node.js and Deno allow you to write and run JavaScript code outside of the browser, but they have different design philosophies, features, and approaches to security.
+
+    
+let , const , var
+    
+
+
+
+// always remember datatypes should be same in comparisions
+
+// primitive and non-primitive 
+    // primitive ====== call by value (copy)
+    // nnbbssu : Number , Null , Booliean , Bigint , Symbol , Stirng, undefined
+
+    // not-primitive (referance type)
+    // Array , Objects , Functions

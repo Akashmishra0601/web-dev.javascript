@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-Counter-App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <center>
+        <div class="div">
+            <center>
+                <h1>Game-Counter-App {} </h1>
+
+                <h2 id="deno1">count: </h2>
+    
+    
+                
+                <button class="btn" id="deno" onclick="counter++; document.querySelector('#deno1').innerHTML = 'counter: ' + counter;">Increase-Count</button>
+
+                <button class="btn" id="node" onclick="counter--; document.querySelector('#deno1').innerHTML = 'counter: ' + counter;">Dicrease-Count</button>
+            </center>
+    
+        </div>
+    </center>
+
+
+
+
+    <script>
+
+    counter = 0;
+
+    document.querySelector("#deno1").innerHTML = `counter : ${counter}`
+
+
+            
+    </script>
+    
+
+
+    <script src="index.js"></script>
+
+
+</body>
+</html>
